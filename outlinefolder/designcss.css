@@ -1,5 +1,5 @@
 body{
-    background-color: #BFB0BF;
+    background-color: rgb(247, 237, 226);
     
     
     border-radius: 1em;
@@ -20,7 +20,7 @@ header{
 }
 main{
     display: block;
-    background-color: #FFF3EB;
+    background-color: rgb(132, 165, 157);
     font-style: 'Open Sans Condensed', sans-serif;
     font-size: 20px;
     padding: 1em;
@@ -29,12 +29,12 @@ main{
 }
 .nav {
     overflow: hidden;
-    background-color: #312122;
+    background-color: #F28482;
 
   }
   
   .nav a {
-    color: #FFF3EB;
+    color: #f2f2f2;
     text-align: center;
     padding: 20px 25px;
     text-decoration: none;
@@ -93,21 +93,21 @@ box-shadow: 5px -1px 49px 19px rgba(0,0,0,0.3);
   border: 10px double #F6BD60;
 }
 #design-style{
-border: 7px dotted  #E79CAB;
+border: 7px dotted #F5CAC3;
 border-radius: 18px;
 padding:1em;
 margin-block: 20px;
 margin:4em;
 }
 #purpose{
-    border: 7px dotted  #E79CAB;
+    border: 7px dotted #F5CAC3;
 border-radius: 18px;
 padding:1em;
 margin:4em;
 
 }
 #pmp{
-border: 7px dotted #E79CAB;
+border: 7px dotted #F5CAC3;
 border-radius: 18px;
 padding:1em;
 margin:4em;
