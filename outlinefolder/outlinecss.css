@@ -1,5 +1,5 @@
 body{
-    background-color: #BFB0BF;
+    background-color: #FFF3EB;
     
     
     border-radius: 1em;
@@ -20,8 +20,10 @@ header{
 }
 main{
     display: block;
-    background-color: #FFF3EB;
+    background-color:   #FFF3EB;
     font-style: 'Open Sans Condensed', sans-serif;
+    border: 45px double  #37033a ;
+    border-radius: 18px;
     font-size: 20px;
     padding: 1em;
     display: block;
@@ -29,7 +31,7 @@ main{
 }
 .nav {
     overflow: hidden;
-    background-color: #312122;
+    background-color:  #a06a73;
 
   }
   
@@ -93,21 +95,22 @@ box-shadow: 5px -1px 49px 19px rgba(0,0,0,0.3);
   border: 10px double #F6BD60;
 }
 #design-style{
-border: 7px dotted  #E79CAB;
+border: 7px dotted#75957c;
 border-radius: 18px;
 padding:1em;
 margin-block: 20px;
 margin:4em;
 }
 #purpose{
-    border: 7px dotted  #E79CAB;
+    border: 7px dotted #75957c;
 border-radius: 18px;
 padding:1em;
 margin:4em;
 
 }
 #pmp{
-border: 7px dotted #E79CAB;
+ 
+border: 7px dotted #75957c;
 border-radius: 18px;
 padding:1em;
 margin:4em;
