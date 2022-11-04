@@ -29,33 +29,56 @@ main{
     display: block;
     margin:4em;
 }
-.nav {
+nav {
     overflow: hidden;
     background-color:  #a06a73;
 
   }
   
-  .nav a {
-    color: #FFF3EB;
-    text-align: center;
-    padding: 20px 25px;
+  .navigation {
+    list-style: none;
+    padding: 10px;
+    max-width: 100%;
+    }
+    .navigation li:first-child {
+    display: block;
+  
+    }
+    .navigation li {
+    display: none;
+    }
+    .navigation a {
+    display: block;
+    padding: 0.75rem;
+    text-align: left;
     text-decoration: none;
-    font-size: 17px;
-    float: left;
-    font-size: 25px;
-    font-family: 'Bebas Neue', cursive;
-  }
-  
-  .nav a:hover {
-    background-color: #F5CAC3;
     color: black;
+    font-size: 16px;
+    font-weight: 700;
+    max-width: 100%;
+    }
+    .navigation a:hover {
+    color:#F03A47;
+    background-color: #8DD65C;
+    }
+
+    .responsive li {
+    display: block;
+    }
+
+    nav ul{
+      font-family: 'Archivo', sans-serif;
+    max-width: 100%;
+    text-align: center;
+   
   }
-  
-  .nav a.active {
-    background-color: #F5CAC3;
-    color: black;
-  }
-  
+    .active {
+      background-color: #8DD65C;
+       
+    } 
+    nav a:hover{
+    max-width: 100%;}
+
 
 .title-page-font{
     font-family: 'Poiret One', cursive;
@@ -114,4 +137,43 @@ border: 7px dotted #75957c;
 border-radius: 18px;
 padding:1em;
 margin:4em;
+}
+footer{
+  font-family: 'Pattaya', sans-serif;
+  background-color:#75957c;
+  color: white;
+  font-size: 21px;
+  padding: 1rem;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+          
+}
+
+footer .social-media-icons li:last-of-type {
+  margin-right: 0;
+  ;
+}
+
+footer .social-media-icons .fa {
+  font-size: 1.3rem;
+  color: #fefefe;
+
+}
+
+footer .social-media-icons .fa:hover {
+  color: #4a4a4a;
+  transition: color 0.3s ease-in;
+}
+.social-media-icons {
+  list-style: none
+}
+.menu-simple {
+  list-style: none;
 }
