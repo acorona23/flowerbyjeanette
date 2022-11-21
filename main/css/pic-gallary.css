@@ -34,7 +34,7 @@
     font-size: 18px;
     border: none;
     outline: none;
-    background-color: red;
+    background-color: #a06a73;
     color: white;
     cursor: pointer;
     padding: 15px;
@@ -42,7 +42,10 @@
   }
   
   #myBtn:hover {
-    background-color: #555;
+    background-color:#F5CAC3;
+    color: black;
+    padding: 15px;
+    border-radius: 4px;
   }
   body {
     font-family: Arial, Helvetica, sans-serif;
