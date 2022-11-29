@@ -1,11 +1,4 @@
- .pictur.gallery .gallery {
-    margin: 5px;
-    border: 1px solid #ccc;
-    float: left;
-    width: 180px;
-    display: block;
-  }
-  
+
   .gallery:hover {
     border: 8px solid#F5CAC3;
   }

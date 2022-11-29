@@ -32,9 +32,46 @@ body{
   nav {
     overflow: hidden;
     background-color: #a06a73;
-    justify-content: center ;
+    max-width: 100%;
+    display: inline-block;
   
+  } nav ul{
+      
+    max-width: 100%;
+ 
   }
+
+  .navigation {
+    list-style: none;
+    padding: 10px;
+    max-width: 100%;
+   text-align: center;
+   display: inline-block;
+   
+    }
+    .navigation li:first-child {
+    display: block;
+  
+    }
+    .navigation li {
+    display: none;
+    }
+    .navigation a {
+    display: block;
+    padding: 1em;
+
+    text-decoration: none;
+    color:whitesmoke;
+    font-size: 25px;
+    font-weight: 700;
+    max-width: 100%;
+    font-family: 'Archivo Narrow', sans-serif;
+    }
+    .navigation a:hover {
+      background-color: #F5CAC3;
+      color: black;
+    }
+
   
   nav a {
     color: #f2f2f2;
@@ -44,7 +81,7 @@ body{
     font-size: 17px;
     float: left;
     font-size: 25px;
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'Archivo Narrow', sans-serif;
   }
   
   nav a:hover {
@@ -77,11 +114,7 @@ body{
     text-align: center;
   
   }
-  nav-font{
-    font-family: 'Bebas Neue', cursive;
-    font-size: 40px;
-    text-align: center;
-  }
+
   .header-font {
     
     font-family: 'Pattaya', sans-serif;
