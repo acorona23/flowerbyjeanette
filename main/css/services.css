@@ -1,6 +1,3 @@
-table, th, td {
-    border:1px solid black;
-  }
 
   input[type=text], select, textarea {
     width: 100%;
@@ -30,4 +27,20 @@ table, th, td {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
+  }
+  .service-form, table, th, td{
+    border:2px dotted black;
+    
+  }
+  .service-form, th{
+    font-family: 'Poiret One', cursive;
+
+  }
+  .service-form, td{ 
+    font-style: 'Open Sans Condensed', sans-serif;
+    font-size: 20px;
+  }
+  .flowerimg{
+    width: 100%;
+    height: auto;
   }

@@ -44,3 +44,23 @@
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
   }
+  .flowerlink li{
+    list-style: none;
+    font-family: 'Poiret One', cursive;
+    font-size: 25px;
+
+    
+  }
+  .flowerlink p {
+    font-size: 30px;
+    font-family: 'Pattaya', sans-serif;
+  }
+  .flowerlink a:hover {
+  color: #4a4a4a;
+  transition: color 0.3s ease-in;
+  text-decoration:none; 
+  cursor:pointer; 
+  }
+  h2 {
+    font-family: 'Poiret One', cursive;
+  }
