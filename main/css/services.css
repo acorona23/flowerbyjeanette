@@ -11,7 +11,7 @@
   }
   
   input[type=submit] {
-    background-color: #04AA6D;
+    background-color:  #75957c;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -20,7 +20,7 @@
   }
   
   input[type=submit]:hover {
-    background-color: #45a049;
+    background-color:   #556d5a;
   }
   
   .form {
@@ -28,19 +28,37 @@
     background-color: #f2f2f2;
     padding: 20px;
   }
-  .service-form, table, th, td{
+   th, td{
     border:2px dotted black;
+    padding: 1.5em;
     
   }
-  .service-form, th{
+   th{
     font-family: 'Poiret One', cursive;
+    font-size: 25px;
+    background-color: #F5CAC3;
 
   }
-  .service-form, td{ 
+  td{
+    background-color: #a06a73;
+    color: whitesmoke;
+
+  }
+  .service-table, td{ 
     font-style: 'Open Sans Condensed', sans-serif;
     font-size: 20px;
   }
-  .flowerimg{
+  .service-table {
+    padding: 3em;
+  }
+  .flowering{
     width: 100%;
     height: auto;
+  }
+
+  .wholeform{
+padding: 2em;
+  }
+  .wholeform p{
+    font-size: 20px;
   }
